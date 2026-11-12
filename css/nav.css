@@ -1,0 +1,61 @@
+/* Timothy Framework - www.timothyframework.com */
+/* This work is licensed under the MIT License - http://www.opensource.org/licenses/mit-license.php */
+
+
+/* Color Legend */
+
+
+/* Hard Reset - DO NOT COPY OR USE in production sites - use regular reset */
+
+*	{ border:0; margin:0; padding:0; }	
+
+/* Horizontal Navigation */
+
+#topnav ul {
+	width: 100%; /* menu will fill 100% of wrapper container  */
+	padding-left: 0; margin-left: 0;
+	float: left;
+	background-color: #036; /* Sets the background color of the menu */
+	}
+
+#topnav ul li { display: inline; }
+
+#topnav ul li a {
+	padding: 3px 15px; /* Sets the Height and Width of the menu item*/
+	float: left;
+	border-right: 1px solid #fff; /* Sets the divider line between menu items */
+	color: #fff; /* Sets the font color of the menu item text */
+	text-decoration: none; /* removes the underline from underneath links */
+	}
+
+#topnav ul li a:hover {
+	background-color: #369; /* Sets the color of the menu item on mouse hover */
+	color: #fff; /* Sets the font color of the menu item on hover */
+	}
+
+/* Verticle Navigation */
+
+#leftnav { width: 200px; }
+
+#leftnav ul 	{
+	margin-left: 0; padding-left: 0;
+	list-style-type: none;
+	}
+
+#leftnav a 	{
+	display: block; 
+	padding: 5px; /* Sets the spacing on top and bottom of the menu items  */
+	width: 160px; /* Sets the width of the menu item */
+	background-color: #036; /* Sets the background color of the menu items */
+	border-bottom: 1px solid #eee; /* Sets a divider line on the bottom of each menu item */
+	}
+
+#leftnav a:link, #leftnav a:visited 	{
+	color: #EEE; /* Sets the font color of the menu items */
+	text-decoration: none; /* removes the underline from underneath links */
+	}
+
+#leftnav a:hover 	{
+	background-color: #369; /* Sets the background color of the menu item on hover */
+	color: #fff; /* Sets the font color of the menu item on mourse hover */
+	}

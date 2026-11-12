@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body {background-color:#E8DDCA;}
+#kotak{background-color:white;width:900px; margin:0px auto; padding: 0px 20px 0px 20px}
+#kotakservices{background-color:white;width:900px; margin:0px auto; padding: 0px 20px 0px 20px}
+#logo{float:left;margin: 0px 0px 25px 0px}
+#logoservices{float:left;margin: 0px 0px 25px 0px}
+#icon{float:right;}
+#iconservices{float:right;}
+#Navigation{clear:both;border-top:solid black 1px;border-bottom:solid black 1px;margin: 25px 0px 25px 0px;padding:10px 0px 10px 0px;}
+#Navigationservices{clear:both;border-top:solid black 1px;border-bottom:solid black 1px;margin: 25px 0px 25px 0px;padding:10px 0px 10px 0px;}
+#Navigation a{color:black;text-decoration-line:none;word-spacing:30px;font-family:Arial;}
+#Navigationservices a{color:black;text-decoration-line:none;word-spacing:30px;font-family:Arial;}
+#Navigation a:hover{color:palevioletred;}
+#Navigationservices a:hover{color:palevioletred;}
+
+#Tittle{color:palevioletred;font-family:Arial; border-bottom: solid black 1px;padding: 5px 0px 5px 0px;}
+#Tittleservices{color:palevioletred;font-family:Arial; border-bottom: solid black 1px;padding: 5px 0px 5px 0px;}
+#Pic{float:left;width:650px;margin: 0px 10px 0px 0px;}
+#Picservices{float:left;width:650px;margin: 0px 10px 0px 0px;}
+#Pic img{border:solid 1px black; padding: 5px 5px 5px 5px; margin: 0px 10px 0px 10px;}
+#Picservices img{border:solid 1px black; padding: 5px 5px 5px 5px; margin: 0px 10px 0px 10px;}
+
+#News {float:right;width:240px;font-family: Arial;}
+
+#News h4 {color:palevioletred;}
+#Footer {clear:both;font-family:Arial; border-top: solid 1px black; text-align:center;padding: 0px 0px 0px 0px;}
